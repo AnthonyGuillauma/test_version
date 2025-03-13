@@ -1,0 +1,13 @@
+# Virtual environment
+.venv/
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Sphinx build directory
+docs/build/
