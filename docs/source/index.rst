@@ -13,6 +13,7 @@ documentation for details.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Documentation:
 
-   modules
+   modules/modules_index
+   tests/tests_index

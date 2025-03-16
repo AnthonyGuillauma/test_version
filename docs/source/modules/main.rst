@@ -5,5 +5,3 @@ Main Module
    :members:
    :show-inheritance:
    :undoc-members:
-
-   modules

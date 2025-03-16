@@ -1,0 +1,223 @@
+{
+    "path": "C:\\Users\\Work\\App\\Xampp\\apache\\logs\\access.log",
+    "analysis": {
+        "filter": {
+            "status_code": null,
+            "timestamp": null,
+            "client_ip": null,
+            "request_method": null
+        }
+    },
+    "stats": {
+        "clients": {
+            "total_unique_ip": 2,
+            "top_ips": [
+                {
+                    "ip": "127.0.0.1",
+                    "total": 12576,
+                    "percent": 71.4789132658861
+                },
+                {
+                    "ip": "::1",
+                    "total": 5018,
+                    "percent": 28.521086734113904
+                }
+            ]
+        },
+        "requests": {
+            "http_method_rate": [
+                {
+                    "method": "GET",
+                    "total": 16774,
+                    "percent": 95.33932022280322
+                },
+                {
+                    "method": "POST",
+                    "total": 817,
+                    "percent": 4.643628509719223
+                },
+                {
+                    "method": null,
+                    "total": 3,
+                    "percent": 0.017051267477549165
+                }
+            ],
+            "top_urls": [
+                {
+                    "url": "/assets/icons/muted.png",
+                    "total": 665,
+                    "percent": 3.7796976241900646
+                },
+                {
+                    "url": "/style/Header.css",
+                    "total": 616,
+                    "percent": 3.501193588723429
+                },
+                {
+                    "url": "/assets/icon.ico",
+                    "total": 595,
+                    "percent": 3.381834716380584
+                }
+            ]
+        },
+        "responses": {
+            "status_code_rate": [
+                {
+                    "code": 200,
+                    "total": 14996,
+                    "percent": 85.23360236444243
+                },
+                {
+                    "code": 206,
+                    "total": 604,
+                    "percent": 3.432988518813232
+                },
+                {
+                    "code": 301,
+                    "total": 13,
+                    "percent": 0.07388882573604638
+                },
+                {
+                    "code": 302,
+                    "total": 188,
+                    "percent": 1.0685460952597476
+                },
+                {
+                    "code": 304,
+                    "total": 1494,
+                    "percent": 8.491531203819484
+                },
+                {
+                    "code": 400,
+                    "total": 6,
+                    "percent": 0.03410253495509833
+                },
+                {
+                    "code": 403,
+                    "total": 40,
+                    "percent": 0.22735023303398885
+                },
+                {
+                    "code": 404,
+                    "total": 230,
+                    "percent": 1.307263839945436
+                },
+                {
+                    "code": 408,
+                    "total": 3,
+                    "percent": 0.017051267477549165
+                },
+                {
+                    "code": 500,
+                    "total": 20,
+                    "percent": 0.11367511651699443
+                }
+            ],
+            "status_code_classes_rate": [
+                {
+                    "class": "5xx",
+                    "total": 20,
+                    "percent": 0.11367511651699443
+                },
+                {
+                    "class": "4xx",
+                    "total": 279,
+                    "percent": 1.5857678754120723
+                },
+                {
+                    "class": "3xx",
+                    "total": 1695,
+                    "percent": 9.633966124815279
+                },
+                {
+                    "class": "2xx",
+                    "total": 15600,
+                    "percent": 88.66659088325565
+                }
+            ]
+        },
+        "metadatas": {
+            "os_rate": [
+                {
+                    "os": "Windows",
+                    "total": 16231,
+                    "percent": 92.25304080936682
+                },
+                {
+                    "os": "iOS",
+                    "total": 652,
+                    "percent": 3.7058087984540182
+                },
+                {
+                    "os": "Android",
+                    "total": 702,
+                    "percent": 3.989996589746504
+                },
+                {
+                    "os": "Mac OS X",
+                    "total": 6,
+                    "percent": 0.03410253495509833
+                },
+                {
+                    "os": "Other",
+                    "total": 3,
+                    "percent": 0.017051267477549165
+                }
+            ],
+            "browser_rate": [
+                {
+                    "browser": "Chrome",
+                    "total": 16231,
+                    "percent": 92.25304080936682
+                },
+                {
+                    "browser": "Mobile Safari",
+                    "total": 652,
+                    "percent": 3.7058087984540182
+                },
+                {
+                    "browser": "Chrome Mobile",
+                    "total": 702,
+                    "percent": 3.989996589746504
+                },
+                {
+                    "browser": "Safari",
+                    "total": 6,
+                    "percent": 0.03410253495509833
+                },
+                {
+                    "browser": "Other",
+                    "total": 3,
+                    "percent": 0.017051267477549165
+                }
+            ],
+            "type_device_rate": [
+                {
+                    "type_device": "PC",
+                    "total": 16237,
+                    "percent": 92.28714334432193
+                },
+                {
+                    "type_device": "Mobile",
+                    "total": 1347,
+                    "percent": 7.656019097419575
+                },
+                {
+                    "type_device": "Tablet",
+                    "total": 7,
+                    "percent": 0.03978629078094805
+                },
+                {
+                    "type_device": "Other",
+                    "total": 3,
+                    "percent": 0.017051267477549165
+                }
+            ],
+            "bot_rate": {
+                "total": 0,
+                "percent": 0.0
+            }
+        }
+    },
+    "total_requests": 17594
+}
